@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_cached_network_image/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_cached_network_image/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_cached_network_image/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_selectable_text/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_selectable_text/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_selectable_text/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_url_launcher/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_url_launcher/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_url_launcher/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_just_audio/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_just_audio/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_just_audio/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_svg/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_svg/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_svg/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_webview/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_webview/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_webview/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/enhanced/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/enhanced/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/enhanced/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_text_style/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_text_style/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_text_style/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_chewie/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_chewie/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/fwfh_chewie/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/core/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/core/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/webview_flutter_wkwebview/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/webview_flutter_wkwebview/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/webview_flutter_wkwebview/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/sqflite/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/sqflite/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/sqflite/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/wakelock/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/wakelock/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/wakelock/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/path_provider_ios/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/path_provider_ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/path_provider_ios/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/audio_session/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/audio_session/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/audio_session/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/wakelock/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/wakelock/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/wakelock/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/just_audio/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/just_audio/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/just_audio/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/url_launcher_ios/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/url_launcher_ios/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/url_launcher_ios/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/integration_test_macos/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/integration_test_macos/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/integration_test_macos/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/webview_flutter_wkwebview/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/webview_flutter_wkwebview/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/webview_flutter_wkwebview/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/sqflite/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/sqflite/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/sqflite/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/video_player_avfoundation/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/video_player_avfoundation/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/video_player_avfoundation/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/audio_session/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/audio_session/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/audio_session/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/just_audio/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/just_audio/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/just_audio/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/integration_test/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/path_provider_ios/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/path_provider_ios/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/path_provider_ios/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/url_launcher_ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/url_launcher_ios/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/url_launcher_ios/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/video_player_avfoundation/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/video_player_avfoundation/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demo_app/ios/.symlinks/plugins/video_player_avfoundation/example/.pub" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>

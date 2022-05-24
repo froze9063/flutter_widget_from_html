@@ -15,17 +15,17 @@ class FwfhTextStyle extends _TextStyleProxy {
   static TextStyle from(TextStyle ref) {
     if (ref.inherit) {
       assert(
-        () {
-          if (!_warnedAboutInherit) {
-            debugPrint(
-              "Warning: $ref has inherit=true, resetting height won't work. "
-              'See https://github.com/flutter/flutter/issues/58765 for context. '
-              'This is printed once per debug session.\n${StackTrace.current}',
-            );
-            _warnedAboutInherit = true;
-          }
-          return true;
-        }(),
+          () {
+        if (!_warnedAboutInherit) {
+          debugPrint(
+            "Warning: $ref has inherit=true, resetting height won't work. "
+                'See https://github.com/flutter/flutter/issues/58765 for context. '
+                'This is printed once per debug session.\n${StackTrace.current}',
+          );
+          _warnedAboutInherit = true;
+        }
+        return true;
+      }(),
       );
       return ref;
     } else {
@@ -40,34 +40,24 @@ class FwfhTextStyle extends _TextStyleProxy {
   FwfhTextStyle._(TextStyle ref) : super._(ref);
 
   @override
-  TextStyle apply({
-    Color? color,
-    Color? backgroundColor,
-    TextDecoration? decoration,
-    Color? decorationColor,
-    TextDecorationStyle? decorationStyle,
-    double decorationThicknessFactor = 1.0,
-    double decorationThicknessDelta = 0.0,
-    String? fontFamily,
-    List<String>? fontFamilyFallback,
-    double fontSizeFactor = 1.0,
-    double fontSizeDelta = 0.0,
-    int fontWeightDelta = 0,
-    FontStyle? fontStyle,
-    double letterSpacingFactor = 1.0,
-    double letterSpacingDelta = 0.0,
-    double wordSpacingFactor = 1.0,
-    double wordSpacingDelta = 0.0,
-    double heightFactor = 1.0,
-    double heightDelta = 0.0,
-    TextBaseline? textBaseline,
-    ui.TextLeadingDistribution? leadingDistribution,
-    Locale? locale,
-    List<ui.Shadow>? shadows,
-    List<ui.FontFeature>? fontFeatures,
-    String? package,
-    TextOverflow? overflow,
-  }) =>
+  TextStyle merge(TextStyle? other) => FwfhTextStyle.from(
+    ref.merge(other is FwfhTextStyle ? other.ref : other),
+  );
+
+  @override
+  // TODO: implement fontVariations
+  List<ui.FontVariation>? get fontVariations => throw UnimplementedError();
+
+  @override
+  TextStyle apply({ui.Color? color, ui.Color? backgroundColor, ui.TextDecoration?
+  decoration, ui.Color? decorationColor, ui.TextDecorationStyle? decorationStyle,
+    double decorationThicknessFactor = 1.0, double decorationThicknessDelta = 0.0, String?
+    fontFamily, List<String>? fontFamilyFallback, double fontSizeFactor = 1.0, double
+    fontSizeDelta = 0.0, int fontWeightDelta = 0, ui.FontStyle? fontStyle, double letterSpacingFactor = 1.0,
+    double letterSpacingDelta = 0.0, double wordSpacingFactor = 1.0, double wordSpacingDelta = 0.0,
+    double heightFactor = 1.0, double heightDelta = 0.0, ui.TextBaseline? textBaseline, ui.TextLeadingDistribution?
+    leadingDistribution, ui.Locale? locale, List<ui.Shadow>? shadows, List<ui.FontFeature>? fontFeatures,
+    List<ui.FontVariation>? fontVariations, String? package, TextOverflow? overflow}) =>
       FwfhTextStyle.from(
         ref.apply(
           color: color,
@@ -100,41 +90,22 @@ class FwfhTextStyle extends _TextStyleProxy {
       );
 
   @override
-  TextStyle copyWith({
-    bool? inherit,
-    Color? color,
-    Color? backgroundColor,
-    double? fontSize,
-    FontWeight? fontWeight,
-    FontStyle? fontStyle,
-    double? letterSpacing,
-    double? wordSpacing,
-    TextBaseline? textBaseline,
-    dynamic height = _default,
-    ui.TextLeadingDistribution? leadingDistribution,
-    Locale? locale,
-    Paint? foreground,
-    Paint? background,
-    List<ui.Shadow>? shadows,
-    List<ui.FontFeature>? fontFeatures,
-    TextDecoration? decoration,
-    Color? decorationColor,
-    TextDecorationStyle? decorationStyle,
-    double? decorationThickness,
-    String? debugLabel,
-    String? fontFamily,
-    List<String>? fontFamilyFallback,
-    String? package,
-    TextOverflow? overflow,
-  }) {
+  TextStyle copyWith({bool? inherit, ui.Color? color, ui.Color? backgroundColor, double? fontSize,
+    ui.FontWeight? fontWeight, ui.FontStyle? fontStyle, double? letterSpacing, double? wordSpacing,
+    ui.TextBaseline? textBaseline, double? height, ui.TextLeadingDistribution? leadingDistribution,
+    ui.Locale? locale, ui.Paint? foreground, ui.Paint? background, List<ui.Shadow>? shadows,
+    List<ui.FontFeature>? fontFeatures, List<ui.FontVariation>? fontVariations, ui.TextDecoration? decoration,
+    ui.Color? decorationColor, ui.TextDecorationStyle? decorationStyle, double? decorationThickness,
+    String? debugLabel, String? fontFamily, List<String>? fontFamilyFallback, String? package,
+    TextOverflow? overflow}) {
     String? newDebugLabel;
     assert(
-      () {
-        if (this.debugLabel != null) {
-          newDebugLabel = debugLabel ?? '(${this.debugLabel}).copyWith';
-        }
-        return true;
-      }(),
+        () {
+      if (this.debugLabel != null) {
+        newDebugLabel = debugLabel ?? '(${this.debugLabel}).copyWith';
+      }
+      return true;
+    }(),
     );
     return FwfhTextStyle.from(
       TextStyle(
@@ -170,11 +141,6 @@ class FwfhTextStyle extends _TextStyleProxy {
       ),
     );
   }
-
-  @override
-  TextStyle merge(TextStyle? other) => FwfhTextStyle.from(
-        ref.merge(other is FwfhTextStyle ? other.ref : other),
-      );
 }
 
 class _DefaultValue {
@@ -201,9 +167,9 @@ abstract class _TextStyleProxy implements TextStyle {
 
   @override
   void debugFillProperties(
-    DiagnosticPropertiesBuilder properties, {
-    String prefix = '',
-  }) =>
+      DiagnosticPropertiesBuilder properties, {
+        String prefix = '',
+      }) =>
       ref.debugFillProperties(properties, prefix: prefix);
 
   @override
